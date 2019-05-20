@@ -2,8 +2,10 @@ def my_select(nums)
   i = 0
   array = []
   while i < selection.size
-    block_given?
-    array << yield(selection[i])
+    if yield(nums[i])
+      
+    end
+    
     i += 1
   end
   array
