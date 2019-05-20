@@ -8,5 +8,3 @@ def my_select(selection)
   end
   array
 end
-
-end
