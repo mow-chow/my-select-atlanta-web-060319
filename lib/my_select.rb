@@ -3,9 +3,9 @@ def my_select(nums)
   array = []
   while i < selection.size
     if yield(nums[i])
-      
+
     end
-    
+
     i += 1
   end
   array
