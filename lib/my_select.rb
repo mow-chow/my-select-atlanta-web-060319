@@ -1,4 +1,4 @@
-def my_select(selection)
+def my_select(nums)
   i = 0
   array = []
   while i < selection.length
