@@ -6,7 +6,7 @@ while i < nums.size
   if yield(nums[i]) == true
   array.push(nums[i])
 end
-  count+=1
+  i+=1
 end
-result
+array
 end
