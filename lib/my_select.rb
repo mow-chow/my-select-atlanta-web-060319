@@ -4,9 +4,7 @@ def my_select(nums)
   while i < selection.size
     if yield(nums[i]) == true
       array.push(array[i])
-
     end
-
     i += 1
   end
   array
