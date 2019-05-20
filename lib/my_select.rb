@@ -1,4 +1,4 @@
-def my_select(nums) 
+def my_select(nums)
 i = 0
 array = []
 
